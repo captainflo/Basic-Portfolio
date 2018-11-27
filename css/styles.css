@@ -41,14 +41,13 @@ body{
 
 /* Footer */
 footer{
-    position: fixed; 
+    position: absolute; 
     left: 0 ; right: 0; bottom: 0; 
-    
-    margin-top: 90px;
     border-top: 8px solid #4aaaa5;
     display: block;
     background: #666666;
-    height: 50px;;
+    height: 50px;
+    width: 100%;
 }
 footer p{
     padding-top: 2px;
